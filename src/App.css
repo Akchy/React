@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  height: 60%;
+  padding: 10px;
+  margin-top: 10%;
+}
+input[type=text] {
+  border: none;
+  height: 20px;
+  border-bottom: 2px solid red;
+}
+
+input[type=password] {
+  border: none;
+  height: 20px;
+  border-bottom: 2px solid red;
+}
+label{
+
+  font-weight: bold;
+}
+
+.btn {
+  background: deepskyblue;
+  font: inherit;
+  cursor: pointer;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error{
+  text-align: center;
+  color: red;
+}
+
